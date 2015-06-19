@@ -18,7 +18,6 @@
 {
     [super viewDidLoad];
     iMProgress = [[iMProgressBar alloc] initWithFrame:CGRectMake(35,114, 250, 0.5)];
-    iMProgress.BarWidth=(int)150;
     [self.view addSubview:iMProgress];
     [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(update) userInfo:nil repeats:YES];
 

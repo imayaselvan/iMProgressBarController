@@ -13,5 +13,4 @@
     UIView *barViewFill;
 }
 - (void)setProgress:(int)progress ;
-@property(nonatomic)int BarWidth;
 @end
