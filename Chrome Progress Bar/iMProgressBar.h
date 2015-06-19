@@ -12,5 +12,7 @@
 {
     UIView *barViewFill;
 }
+@property(nonatomic ,retain)UIColor *barColour;
+
 - (void)setProgress:(int)progress ;
 @end

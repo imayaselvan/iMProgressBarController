@@ -27,6 +27,10 @@
     
     
 }
+-(void)setBarColour:(UIColor *)barColour{
+    
+    barViewFill.backgroundColor = barColour;
+}
 
 - (void)setProgress:(int)progress
 {
